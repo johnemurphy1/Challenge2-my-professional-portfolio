@@ -2,6 +2,7 @@
   --grey: #686666;
   --deep-red: #850000;
   --white: #ffffff;
+  --header: #00000000;
 }
 
 header {
@@ -34,7 +35,34 @@ header nav ul li {
   text-decoration: underline;
 }
 
-main {
-  width: 75%;
-  float: right;
+
+#challenges {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.other-projects {
+  flex: 0 1;
+  padding: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 20%;
+  min-block-size: 200px;
+  max-block-size: 400px;
+}
+
+
+@media screen and (max-width: 768px){
+header {
+  background: var(--deep-red);
+  color: black;
+}
+body {
+  background: var(--grey);
+  color: var(--white);
+}
+Nav {
+  flex-direction: column;
+}
 }
