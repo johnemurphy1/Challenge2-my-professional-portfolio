@@ -2,16 +2,14 @@
   --grey: #686666;
   --deep-red: #850000;
   --white: #ffffff;
-  --header: #00000000;
-}
+  --black: #000000;
 
 header {
-  display: flex;
-  justify-content: space-between;
+
   padding: 30px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: var(--grey);
-  color: var(--white);
+  background-color: var(--black);
+  color: var(--deep-red);
 }
 
 header h1 {
@@ -20,6 +18,7 @@ header h1 {
 }
 
 header nav {
+  font-size: 30px;
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -36,20 +35,64 @@ header nav ul li {
 }
 
 
-#challenges {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2%;
+body {
+  background-color: var(--grey);
 }
 
-.other-projects {
-  flex: 0 1;
+.title {
+  display: flex;
+  justify-content:space-around;
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: left;
+  width: 20%;
+  height: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #850000;
+  color: #ffffff;
+}
+
+.right-side {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+  width: 75%;
+  float: right;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+#main-project {
+  flex: 1 1 150px;
+}
+
+.other-projects  {
+  flex: 1 1 50;
+  min-block-size: 100px;
+  max-block-size: 400px;
+}
+img {
+
   padding: 10px;
   border-style: solid;
   border-width: 2px;
   border-radius: 20%;
-  min-block-size: 200px;
-  max-block-size: 400px;
+}
+
+#contact-me {
+  display: inline-block;
+  justify-content: space-around;
+  font-size: 25px;
+  font-weight: 150%;
+  text-decoration: underline;
+}
+
+a {
+  color: var(--white);
 }
 
 
@@ -60,9 +103,16 @@ header {
 }
 body {
   background: var(--grey);
-  color: var(--white);
+
+  color: var(--black);
+
 }
 Nav {
   flex-direction: column;
+}
+  
+.title {
+  background: var(--black);
+  color: var(--deep-red);
 }
 }
