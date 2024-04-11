@@ -3,7 +3,6 @@
   --deep-red: #850000;
   --white: #ffffff;
   --black: #000000;
-}
 
 header {
 
@@ -34,6 +33,7 @@ header nav ul li {
   margin-left: 25px;
   text-decoration: underline;
 }
+
 
 body {
   background-color: var(--grey);
@@ -76,6 +76,7 @@ body {
   max-block-size: 400px;
 }
 img {
+
   padding: 10px;
   border-style: solid;
   border-width: 2px;
@@ -94,6 +95,7 @@ a {
   color: var(--white);
 }
 
+
 @media screen and (max-width: 768px){
 header {
   background: var(--deep-red);
@@ -101,11 +103,14 @@ header {
 }
 body {
   background: var(--grey);
+
   color: var(--black);
+
 }
 Nav {
   flex-direction: column;
 }
+  
 .title {
   background: var(--black);
   color: var(--deep-red);
