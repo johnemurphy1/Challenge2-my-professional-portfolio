@@ -13,16 +13,24 @@ header {
   color: var(--deep-red);
 }
 
+h1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#profile-picture {
+  max-height: 250px;
+  border-radius: 50%;
+}
+
 header h1 {
-  display: inline-block;
-  font-size: 50px;
+  display: flex;
+  font-size: 100px;
 }
 
 header nav {
   font-size: 30px;
-  padding-top: 15px;
-  margin-right: 20px;
-  float: right;
+  padding: 20px;
 }
 
 header nav ul {
@@ -31,7 +39,7 @@ header nav ul {
 
 header nav ul li {
   display: inline-block;
-  margin-left: 25px;
+  justify-content: space-between;
   text-decoration: underline;
 }
 
@@ -44,7 +52,7 @@ body {
   display: flex;
   justify-content:space-around;
   margin-right: 20px;
-  padding: 20px;
+  padding: 10px;
   clear: both;
   float: left;
   width: 20%;
@@ -64,14 +72,16 @@ body {
 }
 
 .bio {
-  font-size: 20px;
+  font-size: 26px;
 }
 
 #main-project {
-  flex: 1 1 150px;
+  flex: 1 1 50px;
+  max-width: 600px;
 }
 
 .other-projects  {
+  justify-content: center;
   flex: 1 1 50;
   min-block-size: 100px;
   max-block-size: 400px;
@@ -86,7 +96,7 @@ img {
 
 #contact-me {
   display: inline-block;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 25px;
   font-weight: 150%;
   text-decoration: underline;
