@@ -11,7 +11,7 @@
 
 This is the **Module 02 Challenge Project**. The point of this project was to build a professional portfolio for myself with no starter code. It is meant to include a bio, my current work projects, and a contact list.  
 <br>
-<img src="./assets/images/Portfolio-screenshot.jpg" alt="screenshot of my portfolio page" width="700px" height="100%" >
+<img src="./assets/images/profile screenshot.jpg" alt="screenshot of my portfolio page" width="700px" height="100%" >
 <br>
 
 ## The Purpose 
